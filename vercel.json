@@ -1,6 +1,7 @@
 {
   "cleanUrls": true,
   "rewrites": [
+    { "source": "/protocol.pdf", "destination": "/api/protocol" },
     { "source": "/pets/protocol/:id", "destination": "/" }
   ],
   "headers": [
